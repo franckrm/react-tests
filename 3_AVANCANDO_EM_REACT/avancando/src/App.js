@@ -2,6 +2,7 @@ import ManageData from './components/ManageData';
 import './App.css';
 
 import  Civic from "./assets/civic.jpg"
+import ListRender from './components/ListRender';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         {/*Imagem em asset*/}
         <img src={Civic } alt="Cidade"/>
         <ManageData/>
+        <ListRender/>
     </div>
   );
 }
